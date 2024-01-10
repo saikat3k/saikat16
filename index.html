@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bantu Warga</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- google fonts -->
+    <style>
+        .get-app-area{
+            padding-bottom: 30px;
+            padding-top: 15px;
+        }
+        .get-app-img{
+            text-align: center;
+        }
+        .get-img{
+            width: 350px;
+        }
+        .get-app-text{
+            padding-top: 40px;
+        }
+        .get-app-text-link{
+            text-decoration: none;
+            font-size: 0.8rem;
+            letter-spacing: 0.32px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            color:#5669FF ;
+            padding-left: 5px;
+            border-left:2px solid #5669FF ;
+        }
+        .get-app-title{
+            font-size: 2.5rem;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            letter-spacing: 1.5px;
+            line-height: 18px;
+        }
+        span{
+            color: #5669FF;
+        }
+        .get-app-para{
+            font-family: 'Poppins', sans-serif;
+            font-size: 0.8rem;
+            padding-bottom: 10px;
+            color: #4A4545;
+        }
+        .covid-text-para{
+            font-family: 'Poppins', sans-serif;
+            font-size: 0.8rem;
+            color: #5669FF;
+            font-weight: bold;
+            padding-left: 7px;
+            border-left: 2px solid #5669FF ;
+            letter-spacing: 0.3px;
+        }
+        .covid-text-title{
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.8rem;
+            line-height: 18px;
+            letter-spacing: 1.5px;
+        }
+        .covid-info-single{
+            display: flex;
+            gap: 10px;
+
+            /* justify-content: space-evenly; */
+        }
+        .covid-single-logo{
+                padding-top: 15px;
+            }
+        .covid-single-titile{
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            font-size: 0.8rem;
+        }
+        .covid-single-para{
+            font-family: 'Poppins', sans-serif;
+            font-size: 0.6rem;
+            letter-spacing: 0.3px;
+        }
+        .covid-text-btn{
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            padding: 7px 12px;
+            color: #fff;
+            background-color: #5669FF;
+            border-radius: 9px;
+        }
+        .see-demo-area{
+            padding-top: 20px;
+            text-align: center;
+        }
+        .covid-image{
+            width: 350px;
+            padding-top: 30px;
+        }
+        .covid-img{
+            background-image: url(./image/Data\ page-1\ 1\ \(1\).png);
+            background-repeat: no-repeat;
+            background-size: 300px;
+            background-position: 70px 80px;
+        }
+        .covid-area{
+            padding-bottom: 10px;
+        }
+        @media screen and (min-width:1200px) {
+            .get-app-area, .covid-area{
+                width: 1200px;
+                margin: 0 auto;
+            }
+            .get-img{
+            width:450px;
+            text-align: center;
+        }
+            /* .circle{
+                width: 500px;
+                height: 500px;
+                background-color: red;
+                position: absolute;
+                z-index: -1;
+                top: 236px;
+                left: 390px;
+                border-radius: 50%;
+            } */
+            
+            
+            .get-app-text-link{
+            text-decoration: none;
+            font-size: 0.9rem;
+            letter-spacing: 0.32px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            color:#5669FF ;
+            padding-left: 5px;
+            border-left:2px solid #5669FF ;
+        }
+        .get-app{
+                display: flex;
+                justify-content: space-between;
+                justify-content: center;
+                padding-top: 40px;
+            }
+            .get-app-text{
+                padding-top: 150px;
+                padding-left: 50px;
+            }
+            .get-app-img{
+                margin-right: 20px;
+            }
+            
+            
+        .get-app-title{
+            font-size: 3rem;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            letter-spacing: 1.5px;
+            line-height: 18px;
+        }
+        .covid-text-para{
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem;
+            color: #5669FF;
+            font-weight: bold;
+            padding-left: 7px;
+            border-left: 2px solid #5669FF ;
+            letter-spacing: 0.3px;
+        }
+        .covid-text-title{
+            font-family: 'Poppins', sans-serif;
+            font-size: 2.3rem;
+            line-height: 18px;
+            letter-spacing: 1.5px;
+        }
+        .covid-single-titile{
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+        .covid-single-para{
+            font-family: 'Poppins', sans-serif;
+            font-size: 0.7rem;
+            letter-spacing: 0.3px;
+        }
+            
+            .covid{
+                display: flex;
+                justify-content: space-evenly;
+                padding-top: 70px;
+            }
+            .covid-info-single{
+                gap: 20px;
+            }
+            .covid-single-logo{
+                padding-top: 15px;
+            }
+            .see-demo-area{
+                text-align: left;
+                padding-left: 50px;
+            }
+            .covid-text-btn{
+                padding:10px 20px;
+                border-radius: 10px;
+                transition: all 0.3s;
+            }
+            .covid-text-btn:hover{
+                background-color: #243ae5;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="get-app-area">
+        <div class="get-app">
+            <div class="get-app-img">
+                <img src="./image/Screenshot_38.png" alt="app-image" class="get-img">
+            </div>
+            <div class="get-app-text">
+                <a href="#" class="get-app-text-link">Download Now</a>
+                <h1 class="get-app-title">Get <span>the app</span></h1>
+                <p class="get-app-para">Aplikasi kami tersedia di play store , app store , anda dapat langsung mendownloadnya secara gratis dan nikmati fitur aplikasi yang sudah kami sediakan</p>
+                <a href="#" class="get-app-playstore"><img src="./image/image 2 (1).png" alt="image"></a>
+                <a href="#" class="get-app-playstore"><img src="./image/image 3 (1).png" alt="image"></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- covid-info area -->
+    <div class="covid-area">
+        <div class="covid">
+            <div class="covid-text">
+                <p class="covid-text-para">information</p>
+                <h2 class="covid-text-title">Covid <span>information</span></h2>
+                <div class="covid-info">
+                    <div class="covid-info-single">
+                        <div class="covid-single-logo"><img src="./image/clock (2) 1 (1).png" alt="clock"></div>
+                        <div class="covid-single-text">
+                            <h3 class="covid-single-titile">Informasi tepat waktu</h3>
+                            <p class="covid-single-para">Informasi yang anda dapatkan selalu update oleh kami , karena 
+                                kami mengutamakan informasi yang akurat dan cepa</p>
+                        </div>
+                    </div>
+                    <div class="covid-info-single">
+                        <div class="covid-single-logo"><img src="./image/group 1 (1).png" alt="group"></div>
+                        <div class="covid-single-text">
+                            <h3 class="covid-single-titile">Informasi terpercaya</h3>
+                            <p class="covid-single-para">Informasi yang anda temukan dan baca dapat dipercaya adanya 
+                                karena kami telah berkerja sama dengan para sukarelawan kami
+                                untuk membagi informasi yang benar adanya</p>
+                        </div>
+                    </div>
+                    <div class="covid-info-single">
+                        <div class="covid-single-logo"><img src="./image/puzzle 1 (1).png" alt="puzzle"></div>
+                        <div class="covid-single-text">
+                            <h3 class="covid-single-titile">Informasi relevan</h3>
+                            <p class="covid-single-para">Informasi yang anda temukan dan baca dapat hanya tentang 
+                                masalah kesehatan , tips - tips , pandemi covid , dan sejenisnya</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="see-demo-area">
+                <a href="#" class="covid-text-btn">See demo</a>
+            </div>
+            </div>
+            <div class="covid-img">
+                <img src="./image/Berita page 1 (1).png" alt="image" class="covid-image">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
